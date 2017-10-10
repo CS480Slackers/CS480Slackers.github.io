@@ -1,5 +1,8 @@
 * { box-sizing: border-box; font-family: Avenir; }
-div#profile-container { display: flex; justify-content: space-between; }
+div#profile-container {
+  justify-content: space-between;
+  text-align: -webkit-center;
+}
 div#profile-container figure {
   display: inline-block;
   }
@@ -58,4 +61,28 @@ div#profile-container figcaption {
 a{
   text-decoration: none;
   color:#000;
+}
+
+h2{
+  text-align: center;
+  font-size: 34px;
+  margin:0;
+}
+
+.media-container{
+  width: 100%;
+  text-align: center;
+}
+
+.github-btn{
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 70px;
+  padding:0 100px;
+  cursor:pointer;
+}
+
+.fa{
+  font-size: 35px !important;
 }
