@@ -125,6 +125,14 @@ h2{
   margin-top: -180px;
   margin-left: -130px;
 }
+#bg h2{
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 120px;
+  margin-left: -70px;
+}
 #bg img {
   position: fixed;
   top: 50%;
