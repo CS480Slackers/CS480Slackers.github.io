@@ -65,7 +65,9 @@ div#profile-container figcaption {
   margin: 0;
   text-align: center;
 }
-
+.navbar{
+  z-index: 2;
+}
 a{
   text-decoration: none;
   color:#000;
@@ -107,7 +109,7 @@ h2{
   margin-top: 40px;
 }
 #bg {
-  z-index: -1;
+  position: absolute;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -117,18 +119,18 @@ h2{
   background-size:cover
 }
 #bg h1{
-  position: center;
-
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -130px;
 }
 #bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 3%;
-  min-height: 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -168px;
+  margin-left: -179px;
 }
 #app{
   height: 100%;
